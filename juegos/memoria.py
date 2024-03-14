@@ -1,9 +1,9 @@
 import random
 def memoria():
-    sec = ''
+    sec = []
     for x in range(6):
-        n = random.randint(1,11)
-        sec += str(n) + ' '
+        sec.append(random.randint(1,11))
+        
     print(sec)
     usuario = str(input('Reescribe denuevo los 6 digitos: '))
     if usuario == sec:
