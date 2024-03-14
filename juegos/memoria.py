@@ -5,11 +5,25 @@ def memoria():
         sec.append(random.randint(1,11))
         
     print(sec)
-    usuario = str(input('Reescribe denuevo los 6 digitos: '))
-    if usuario == sec:
-        print('\nLe achuntaste!!')
+    print('Reescribe denuevo los 6 digitos: ')
+    pifia = False
+    mal = 0
+    p = 1
+    for x in sec:
+        c = int(input(str(p) + ': '))
+        p += 1
+        if c == x:
+            print('BIEN')
+        else:
+            print('COMO EL HOYO')
+            pifia = True
+            mal += 1
+        
+    
+    if not pifia:
+        print('\nLe achuntaste a TODOS!!')
     else:
-        print('\nDiablos, no le achuntaste')
+        print('\nDiablos, pifiaste en', str(mal))
     
         
     """
