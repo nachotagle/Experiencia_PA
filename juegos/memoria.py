@@ -1,4 +1,17 @@
+import random
 def memoria():
+    sec = ''
+    for x in range(6):
+        n = random.randint(1,11)
+        sec += str(n) + ' '
+    print(sec)
+    usuario = str(input('Reescribe denuevo los 6 digitos: '))
+    if usuario == sec:
+        print('\nLe achuntaste!!')
+    else:
+        print('\nDiablos, no le achuntaste')
+    
+        
     """
     Esta función representa el juego de memoria.
     Debes generar una secuencia de números al azar y mostrarla al usuario.
