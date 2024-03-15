@@ -15,7 +15,7 @@ def memoria():
         if c == x:
             print('BIEN')
         else:
-            print('COMO EL HOYO')
+            print('MAL')
             pifia = True
             mal += 1
         
