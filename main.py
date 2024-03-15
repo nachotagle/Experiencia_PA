@@ -10,9 +10,9 @@ def menu():
         '2': adivinar_numero,
         '3': juego_del_dado,
         '4': adivinar_par_o_impar,
-        '5': memoria
+        '5': memoria 
     }
-
+    
     while True:
         print("\nMenú de juegos:")
         print("1. Cachipun")
