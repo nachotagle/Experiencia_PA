@@ -26,22 +26,22 @@ Desarrollo:
   Clase Persona (1,1 pts)
        - Relaciones (0,2 pts): 0,2
        - Atributos (0,3 pts): 0,3
-       - MÃ©todos (0,6 pts): 0,4
+       - Métodos (0,6 pts): 0,4
   Clase Artista (0,6 pts)
        - Relaciones (0,2 pts): 0,2
-       - MÃ©todos (0,6 pts): 0,4
+       - Métodos (0,6 pts): 0,4
   Clase Visitante (0,6 pts)
        - Relaciones (0,2 pts): 0,2
-       - MÃ©todos (0,6 pts): 0,4
+       - Métodos (0,6 pts): 0,4
   AnimeExpo (1,0 pts)
        - Puntaje: 1
    Feedback: [Diagrama]
 1. Evento: Personas debe ser una lista por enunciado
 2. Feria: Bien!
 3. Concierto: entradas debe ser una lista por enunciado
-4. Persona: El mÃ©todo visitar debe recibir como parÃ¡metro un Evento
-5. Artista: El mÃ©todo visitar debe recibir como parÃ¡metro un Evento
-6. Visitante: El mÃ©todo visitar debe recibir como parÃ¡metro un Evento
+4. Persona: El método visitar debe recibir como parámetro un Evento
+5. Artista: El método visitar debe recibir como parámetro un Evento
+6. Visitante: El método visitar debe recibir como parámetro un Evento
 
 [AnimeExpo]
 1. Bien!
@@ -49,12 +49,12 @@ Desarrollo:
 
 * Pregunta 2: 1,5/6
 
-   NÂ° 1: 0/1.5
-   NÂ° 2: 0/1.5
-   NÂ° 3: 0/1.5
-   NÂ° 4: 1,5/1.5
+   N° 1: 0/1.5
+   N° 2: 0/1.5
+   N° 3: 0/1.5
+   N° 4: 1,5/1.5
 
    Feedback: 1: Falso. Solo detiene el for.
-2: JustificaciÃ³n incorrecta: el __next__ no hace StopIteration, asÃ­ que imprime una Ãºnica canciÃ³n.
+2: Justificación incorrecta: el __next__ no hace StopIteration, así que imprime una única canción.
 3: Falso: No se guarda el filter en ninguna variable.
 4: Bien!
